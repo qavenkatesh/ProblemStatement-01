@@ -2,20 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-01T09:21:47 IST" name="Default suite" finished-at="2024-09-01T09:21:55 IST" duration-ms="7661">
+  <suite started-at="2024-09-01T20:36:15 IST" name="Venky Suite" finished-at="2024-09-01T20:36:32 IST" duration-ms="16589">
     <groups>
     </groups>
-    <test started-at="2024-09-01T09:21:47 IST" name="Default test" finished-at="2024-09-01T09:21:55 IST" duration-ms="7661">
-      <class name="railYatri.BookTicket">
-        <test-method signature="LaunchUrl()[pri:0, instance:railYatri.BookTicket@1cf56a1c]" started-at="2024-09-01T09:21:47 IST" name="LaunchUrl" finished-at="2024-09-01T09:21:55 IST" duration-ms="7304" status="PASS">
+    <test started-at="2024-09-01T20:36:15 IST" name="Venky Test" finished-at="2024-09-01T20:36:32 IST" duration-ms="16589">
+      <class name="testcases.LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPage@560348e6]" started-at="2024-09-01T20:36:15 IST" name="setup" finished-at="2024-09-01T20:36:29 IST" duration-ms="13715" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchUrl -->
-        <test-method signature="BookAny()[pri:0, instance:railYatri.BookTicket@1cf56a1c]" started-at="2024-09-01T09:21:55 IST" name="BookAny" finished-at="2024-09-01T09:21:55 IST" depends-on-methods="railYatri.BookTicket.LaunchUrl" duration-ms="13" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="fullname()[pri:0, instance:testcases.LoginPage@560348e6]" started-at="2024-09-01T20:36:29 IST" name="fullname" finished-at="2024-09-01T20:36:29 IST" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BookAny -->
-      </class> <!-- railYatri.BookTicket -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- fullname -->
+        <test-method signature="email()[pri:1, instance:testcases.LoginPage@560348e6]" started-at="2024-09-01T20:36:30 IST" name="email" finished-at="2024-09-01T20:36:31 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginPage@560348e6]" started-at="2024-09-01T20:36:31 IST" name="teardown" finished-at="2024-09-01T20:36:32 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.LoginPage -->
+    </test> <!-- Venky Test -->
+  </suite> <!-- Venky Suite -->
 </testng-results>
