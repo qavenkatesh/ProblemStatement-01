@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-01T20:36:15 IST" name="Venky Suite" finished-at="2024-09-01T20:36:32 IST" duration-ms="16589">
+  <suite started-at="2024-09-01T20:59:40 IST" name="Venky Suite" finished-at="2024-09-01T20:59:57 IST" duration-ms="16760">
     <groups>
     </groups>
-    <test started-at="2024-09-01T20:36:15 IST" name="Venky Test" finished-at="2024-09-01T20:36:32 IST" duration-ms="16589">
-      <class name="testcases.LoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPage@560348e6]" started-at="2024-09-01T20:36:15 IST" name="setup" finished-at="2024-09-01T20:36:29 IST" duration-ms="13715" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="fullname()[pri:0, instance:testcases.LoginPage@560348e6]" started-at="2024-09-01T20:36:29 IST" name="fullname" finished-at="2024-09-01T20:36:29 IST" duration-ms="476" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fullname -->
-        <test-method signature="email()[pri:1, instance:testcases.LoginPage@560348e6]" started-at="2024-09-01T20:36:30 IST" name="email" finished-at="2024-09-01T20:36:31 IST" duration-ms="920" status="PASS">
+    <test started-at="2024-09-01T20:59:40 IST" name="Venky Test" finished-at="2024-09-01T20:59:57 IST" duration-ms="16760">
+      <class name="testcases.Email">
+        <test-method signature="email()[pri:0, instance:testcases.Email@2a7ed1f]" started-at="2024-09-01T20:59:55 IST" name="email" finished-at="2024-09-01T20:59:56 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- email -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginPage@560348e6]" started-at="2024-09-01T20:36:31 IST" name="teardown" finished-at="2024-09-01T20:36:32 IST" duration-ms="811" status="PASS">
+      </class> <!-- testcases.Email -->
+      <class name="testcases.Phone">
+        <test-method signature="phone()[pri:0, instance:testcases.Phone@3fa247d1]" started-at="2024-09-01T20:59:56 IST" name="phone" finished-at="2024-09-01T20:59:56 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phone -->
+      </class> <!-- testcases.Phone -->
+      <class name="testcases.FullName">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T20:59:40 IST" name="setup" finished-at="2024-09-01T20:59:54 IST" duration-ms="14352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fullname()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T20:59:55 IST" name="fullname" finished-at="2024-09-01T20:59:55 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullname -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T20:59:56 IST" name="teardown" finished-at="2024-09-01T20:59:57 IST" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testcases.LoginPage -->
+      </class> <!-- testcases.FullName -->
     </test> <!-- Venky Test -->
   </suite> <!-- Venky Suite -->
 </testng-results>

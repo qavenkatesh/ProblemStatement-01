@@ -3,7 +3,9 @@
 <suite name="Venky Suite">
   <test thread-count="5" name="Venky Test">
     <classes>
-      <class name="testcases.LoginPage"/>
+      <class name="testcases.FullName"/>
+      <class name="testcases.Email"/>
+      <class name="testcases.Phone"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

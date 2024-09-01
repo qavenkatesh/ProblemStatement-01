@@ -25,15 +25,15 @@ public class BaseTest extends CommonUtils {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(prop.getProperty("url"));
-			wait(10);
 			maximize();
+			stay();
 			System.out.println("Page launched");
 		}
 		if(prop.getProperty("browser").equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.firefox.driver", "C:\\Users\\svenk\\eclipse-workspace\\AutomePage\\firefoxdriver\\firefoxdriver.exe");
 			driver = new ChromeDriver();
 			driver.get(prop.getProperty("url"));
-			wait(10);
+			stay();
 			maximize();
 			System.out.println("Page launched");
 			
@@ -42,7 +42,6 @@ public class BaseTest extends CommonUtils {
 	
 	@AfterTest
 	public void teardown() {
-		wait(20);
 		driver.close();
 		System.out.println("Browser closed");
 	}
