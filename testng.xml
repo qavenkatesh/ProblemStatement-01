@@ -6,6 +6,8 @@
       <class name="testcases.FullName"/>
       <class name="testcases.Email"/>
       <class name="testcases.Phone"/>
+      <class name="testcases.Gender"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,27 +3,13 @@
 <suite name="Failed suite [Venky Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Venky Test(failed)">
     <classes>
-      <class name="testcases.FullName">
+      <class name="testcases.Gender">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="fullname"/>
+          <include name="gender"/>
         </methods>
-      </class> <!-- testcases.FullName -->
-      <class name="testcases.Email">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="email"/>
-        </methods>
-      </class> <!-- testcases.Email -->
-      <class name="testcases.Phone">
-        <methods>
-          <include name="setup"/>
-          <include name="phone"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testcases.Phone -->
+      </class> <!-- testcases.Gender -->
     </classes>
   </test> <!-- Venky Test(failed) -->
 </suite> <!-- Failed suite [Venky Suite] -->
