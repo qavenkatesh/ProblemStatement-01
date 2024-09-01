@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-01T20:59:40 IST" name="Venky Suite" finished-at="2024-09-01T20:59:57 IST" duration-ms="16760">
+  <suite started-at="2024-09-01T21:10:28 IST" name="Venky Suite" finished-at="2024-09-01T21:10:58 IST" duration-ms="30095">
     <groups>
     </groups>
-    <test started-at="2024-09-01T20:59:40 IST" name="Venky Test" finished-at="2024-09-01T20:59:57 IST" duration-ms="16760">
+    <test started-at="2024-09-01T21:10:28 IST" name="Venky Test" finished-at="2024-09-01T21:10:58 IST" duration-ms="30095">
       <class name="testcases.Email">
-        <test-method signature="email()[pri:0, instance:testcases.Email@2a7ed1f]" started-at="2024-09-01T20:59:55 IST" name="email" finished-at="2024-09-01T20:59:56 IST" duration-ms="308" status="PASS">
+        <test-method signature="email()[pri:0, instance:testcases.Email@2a7ed1f]" started-at="2024-09-01T21:10:56 IST" name="email" finished-at="2024-09-01T21:10:57 IST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- email -->
       </class> <!-- testcases.Email -->
       <class name="testcases.Phone">
-        <test-method signature="phone()[pri:0, instance:testcases.Phone@3fa247d1]" started-at="2024-09-01T20:59:56 IST" name="phone" finished-at="2024-09-01T20:59:56 IST" duration-ms="471" status="PASS">
+        <test-method signature="phone()[pri:0, instance:testcases.Phone@3fa247d1]" started-at="2024-09-01T21:10:57 IST" name="phone" finished-at="2024-09-01T21:10:57 IST" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- phone -->
       </class> <!-- testcases.Phone -->
       <class name="testcases.FullName">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T20:59:40 IST" name="setup" finished-at="2024-09-01T20:59:54 IST" duration-ms="14352" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T21:10:28 IST" name="setup" finished-at="2024-09-01T21:10:55 IST" duration-ms="27303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="fullname()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T20:59:55 IST" name="fullname" finished-at="2024-09-01T20:59:55 IST" duration-ms="846" status="PASS">
+        <test-method signature="fullname()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T21:10:56 IST" name="fullname" finished-at="2024-09-01T21:10:56 IST" duration-ms="511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fullname -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T20:59:56 IST" name="teardown" finished-at="2024-09-01T20:59:57 IST" duration-ms="482" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.FullName@37911f88]" started-at="2024-09-01T21:10:58 IST" name="teardown" finished-at="2024-09-01T21:10:58 IST" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

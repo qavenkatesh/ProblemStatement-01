@@ -7,7 +7,7 @@ public class CommonUtils {
 	public static WebDriver driver;
 	public static WebDriverWait wait;
 
-	public static void stay() {
+	public static void stay(){
 		wait = new WebDriverWait(driver,Duration.ofSeconds(50));
 	}
 	
