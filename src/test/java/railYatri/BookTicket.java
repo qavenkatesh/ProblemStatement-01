@@ -8,14 +8,12 @@ import org.testng.annotations.Test;
 public class BookTicket {
 
 	@Test
-	public void LaunchUrl() {
-		// TODO Auto-generated method stub	
+	public void LaunchUrl() {	
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\svenk\\eclipse-workspace\\AutomePage\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.railyatri.in/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.close();
-		//close
 	}
 	
 	@Test (dependsOnMethods = {"LaunchUrl"})
