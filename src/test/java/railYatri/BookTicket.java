@@ -15,6 +15,7 @@ public class BookTicket {
 		driver.get("https://www.railyatri.in/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.close();
+		//close
 	}
 	
 	@Test (dependsOnMethods = {"LaunchUrl"})
