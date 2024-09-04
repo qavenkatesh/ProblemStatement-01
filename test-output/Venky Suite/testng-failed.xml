@@ -3,13 +3,13 @@
 <suite name="Failed suite [Venky Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Venky Test(failed)">
     <classes>
-      <class name="testcases.Gender">
+      <class name="testcases.Assignment01">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="gender"/>
+          <include name="fullname"/>
         </methods>
-      </class> <!-- testcases.Gender -->
+      </class> <!-- testcases.Assignment01 -->
     </classes>
   </test> <!-- Venky Test(failed) -->
 </suite> <!-- Failed suite [Venky Suite] -->
