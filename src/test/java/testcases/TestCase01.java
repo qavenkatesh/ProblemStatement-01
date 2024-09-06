@@ -13,7 +13,7 @@ public class TestCase01 extends BaseTest {
 	public static void fullname() throws IOException {
 		
 		readExcel();
-		System.out.println("Working");
+		System.out.println("Working fine");
 	}
 
 }
