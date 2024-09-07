@@ -30,7 +30,7 @@ public class BaseTest extends CommonUtils {
 	
 	@AfterTest
 	public static void teardown() {
-		driver.close();
+		driver.quit();
 	}
 
 }

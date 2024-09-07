@@ -2,6 +2,8 @@ package utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -17,6 +19,10 @@ public class CommonUtils {
 	
 	public static void maximize() {
 		driver.manage().window().maximize();
+	}
+	
+	public static void stay() {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	public static void readExcel() throws IOException {
