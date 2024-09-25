@@ -21,9 +21,9 @@ public class CommonUtils {
 		driver.manage().window().maximize();
 	}
 	
-	public static void stay() {
+	/*public static void stay() {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	}
+	}*/
 	
 	public static void readExcel() throws IOException {
 		FileInputStream fis = new FileInputStream("C:\\Users\\svenk\\eclipse-workspace\\AutomePage\\src\\test\\resources\\Test Data\\testdata.xlsx");

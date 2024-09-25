@@ -21,7 +21,7 @@ public class TestCase01 extends BaseTest {
 			System.out.println(e.get(i).getText());
 		}
 		dropdown.selectByValue("Female");
-		stay();
+		//stay();
 	}
 
 }
